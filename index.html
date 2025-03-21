@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Barter System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Barter System</h1>
+    </header>
+
+    <section class="container">
+        <h2>Available Items for Barter</h2>
+        <div class="items" id="items-list">
+            <div class="item">
+                <h3>Bicycle</h3>
+                <p>Good condition, looking to exchange for a mobile phone.</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="item">
+                <h3>Gaming Console</h3>
+                <p>Works perfectly, want to trade for a laptop.</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="item">
+                <h3>Books</h3>
+                <p>Set of 10 novels, exchanging for other books.</p>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Add Your Item</h2>
+        <form id="barter-form">
+            <input type="text" id="item-name" placeholder="Item Name" required>
+            <textarea id="item-desc" placeholder="Description" required></textarea>
+            <button type="submit">Add Item</button>
+        </form>
+    </section>
+
+    <script src="js.js"></script>
+
+</body>
+</html>
